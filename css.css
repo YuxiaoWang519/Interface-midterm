@@ -1,0 +1,215 @@
+#homeSiteWrap{
+
+    background-color: #F5FFFE;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4,minmax(0,20%)) 1fr;
+    grid-row-gap: 20px;
+    grid-gap: 2%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header header header"
+                        "navHeader navHeader navHeader navHeader navHeader navHeader"
+                        ". balance balance balance balance  ."
+                        ". pending pending pending pending  ."
+                        ". accepted accepted accepted accepted  ."
+                        ". todo todo todo todo  ."
+                        ". . . . . addon"
+
+
+                        ;
+
+}
+#TranSiteWrap{
+
+    background-color: #F5FFFE;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4,minmax(0,20%)) 1fr;
+    grid-row-gap: 10px;
+    grid-gap: 2%;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "header header header header header header"
+                        "navHeader navHeader navHeader navHeader navHeader navHeader"
+                        ". transaction transaction transaction transaction ."
+                        ". . . . . addon"
+
+
+
+;
+
+}
+
+.header{
+    background-color: white;
+    grid-area: header;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navHeader{
+    background-color: #ABABAB;
+    grid-area: navHeader;
+
+}
+.tranHeader{
+    background-color: #ABABAB;
+    height: 10vh;
+
+}
+.balance{
+    background-color: white;
+    grid-area: balance;
+    border-radius: 40px;
+}
+.pending{
+    background-color: white;
+    grid-area: pending;
+    border-radius: 40px;
+}
+.accepted{
+    background-color: white;
+    grid-area: accepted;
+    border-radius: 40px;
+}
+.todo{
+    background-color: white;
+    grid-area: todo;
+    border-radius: 40px;
+}
+.addon{
+    grid-area: addon;
+}
+.logo{
+    max-width: 5%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+.fleft{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.userName{
+    margin-left: 80%;
+    color: #22aadd;
+}
+.nav li{
+    float: left;
+    display: inline-block;
+    margin-left: 6%;
+    list-style: none;
+    margin-top: 1%;
+    font-size: 30px;
+
+}
+.nav a {
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline !important;
+}
+.logout{
+    margin-top: 2%;
+    margin-left: 87%;
+    font-size: 20px;
+    color: red;
+    opacity:60%;
+
+
+}
+.info{
+    margin-top: 40px;
+    margin-left: 5%;
+    font-size: 20px;
+}
+.number{
+    margin-top: 40px;
+    margin-left: 70%;
+    font-size: 20px;
+}
+.transaction{
+    background-color: white;
+    grid-area: transaction;
+    border-radius: 40px;
+    max-width: 85%;
+
+    margin: auto;
+
+}
+#tranBalance{
+    padding-top: 2vh;
+    margin-left: 8%;
+    font-size: 20px;
+}
+#tranNumber{
+    padding-top: 4vh;
+    margin-left: 70%;
+    font-size: 20px;
+
+}
+#income{
+    padding-top: 2vh;
+    margin-left: 15%;
+    font-size: 20px;
+}
+#spent{
+    padding-top: 2vh;
+    margin-left: 55%;
+    font-size: 20px;
+
+}
+.incomedata{
+    padding-top: 2vh;
+    margin-left: 20%;
+    font-size: 15px;
+
+}
+.spentData{
+    padding-top: 2vh;
+    margin-left: 60%;
+    font-size: 15px;
+
+}
+.introduction{
+    background-color: white;
+    grid-area: transaction;
+    border-radius: 40px;
+    max-width: 85%;
+
+    margin: auto;
+    padding-bottom: 2vh;
+
+}
+.contact{
+    background-color: white;
+    grid-area: transaction;
+    border-radius: 40px;
+    max-width: 85%;
+
+    margin: auto;
+
+}
+#intro{
+    padding-top: 2vh;
+    margin-left: 4%;
+    font-size: 20px;
+
+}
+#intoInfo{
+    padding-top: 2vh;
+    margin-left: 8%;
+    font-size: 20px;
+
+}
+button{
+
+
+    font-size: 20px;
+    max-width: 10%;
+    float: right;
+
+}
+
+
